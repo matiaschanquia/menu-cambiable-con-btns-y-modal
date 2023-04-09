@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Menu cambiable con btns y modal</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="container-header">
+                <h1>Menu cambiable con btns y modal</h1>
+            </div>
+        </header>
+
+        <main class="main">
+            <section class="section-sobre">
+                <div class="content-sobre">
+                    <!-- perro esquimal americano / toy poodle / Yorkshire terrier -->
+                    <div class="text-sobre">
+                        <h1 class="titulo-sobre">Sobre nosotros:</h1>
+                        <div class="content-text-sobre">
+                            <div class="container-imgs-btns">
+                                <img
+                                    src="./img/left-arrow.png"
+                                    class="arrow left-arrow"
+                                    alt="left arrow"
+                                />
+                                <div class="container-imgs">
+                                    <div class="container-img-dog active">
+                                        <img
+                                            class="img-dog"
+                                            src="./img/dogs/dog1.webp"
+                                            alt="perro esquimal americano"
+                                        />
+                                    </div>
+                                    <div class="container-img-dog">
+                                        <img
+                                            class="img-dog"
+                                            src="./img/dogs/dog2.jpg"
+                                            alt="perro toy poodle"
+                                        />
+                                    </div>
+                                    <div class="container-img-dog">
+                                        <img
+                                            class="img-dog"
+                                            src="./img/dogs/dog3.jpg"
+                                            alt="perro yorkshire terrier"
+                                        />
+                                    </div>
+                                </div>
+                                <img
+                                    src="./img/right-arrow.png"
+                                    class="arrow right-arrow"
+                                    alt="right arrow"
+                                />
+                            </div>
+
+                            <p class="texto-cambiable">
+                                El perro esquimal americano es una raza
+                                originaria de América del Norte, utilizada como
+                                perro de trineo y compañía. Tienen un pelaje
+                                grueso y blanco, cuerpo musculoso y compacto, y
+                                son activos, inteligentes y leales. Son
+                                excelentes competidores en deportes caninos como
+                                el mushing, el agility y el obedience. Como
+                                mascotas, son una buena opción para aquellos que
+                                buscan un perro activo y leal, pero necesitan
+                                mucho ejercicio diario y una dieta adecuada para
+                                mantenerse saludables. Su historia como perros
+                                de trineo los hace ser perros muy resistentes y
+                                capaces de soportar condiciones climáticas
+                                extremas.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="ilustracion-sobre">
+                        <img
+                            src="./img/ilustracion-about.png"
+                            alt="ilustracion sobre"
+                        />
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <a href="#">Matias Chanquia Dev</a>
+        </footer>
+
+        <div class="modal">
+            <img class="content-modal" alt="perro">
+        </div>
+
+        <script src="./app.js"></script>
+    </body>
+</html>
