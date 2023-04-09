@@ -66,6 +66,16 @@ btnRight.addEventListener("click", (e) => {
 
 containerImgsDogs.forEach((item, index) => {
     item.addEventListener("click", (e) => {
-        
+        modal.style.display = "flex";
+        contentModal.src = imgsDogs[index].src;
+        document.body.style.overflow = "hidden";
     });
+});
+
+window.addEventListener("click", (e) => {
+    if(e.target === modal) {
+        modal.style.display = "none";
+        contentModal.src = "";
+        document.body.style.overflow = "visible";
+    }
 });
